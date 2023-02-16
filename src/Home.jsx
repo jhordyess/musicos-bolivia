@@ -54,6 +54,9 @@ const columns = [
     options: {
       filter: false,
       searchable: false,
+      sortCompare: (order) => (obj1, obj2) =>
+        (parseInt(obj1.data, 10) - parseInt(obj2.data, 10)) *
+        (order === "asc" ? 1 : -1),
     },
   },
   {
@@ -62,6 +65,9 @@ const columns = [
     options: {
       filter: false,
       searchable: false,
+      sortCompare: (order) => (obj1, obj2) =>
+        (parseInt(obj1.data, 10) - parseInt(obj2.data, 10)) *
+        (order === "asc" ? 1 : -1),
     },
   },
   {
@@ -70,7 +76,16 @@ const columns = [
     options: {
       filter: false,
       sort: false,
-      customBodyRender: (val) => <span>{String(val)}</span>,
+      customBodyRender: (val) => {
+        const genresArr = JSON.parse(String(val.replaceAll(`'`, `"`)));
+        return (
+          <div className="chipContainer">
+            {genresArr.map((genre, index) => (
+              <span key={"" + genre + index}>{genre}</span>
+            ))}
+          </div>
+        );
+      },
     },
   },
   {
