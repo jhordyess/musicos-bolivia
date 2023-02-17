@@ -6,11 +6,7 @@ Una representación visual del archivo CSV con peticiones al repositorio: [boliv
 
 ## Online
 
-<!-- Visita la página funcionando: <https://ftbol.jhordyess.com> -->
-
-## Dockerize
-
-<!-- Por favor revisa la rama [docker](https://github.com/jhordyess/futbolistas-bolivia/tree/docker). -->
+Visita la página funcionando: <https://musbol.jhordyess.com>
 
 ## Dev Info
 
