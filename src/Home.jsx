@@ -1,6 +1,7 @@
 import React from "react";
 import MUIDataTable from "mui-datatables";
 import fetchData from "@utils/fetchData";
+import { Stack, Chip } from "@mui/material";
 
 const spanish = {
   body: {
@@ -79,11 +80,11 @@ const columns = [
       customBodyRender: (val) => {
         const genresArr = JSON.parse(String(val.replaceAll(`'`, `"`)));
         return (
-          <div className="chipContainer">
+          <Stack direction="row" spacing={1}>
             {genresArr.map((genre, index) => (
-              <span key={"" + genre + index}>{genre}</span>
+              <Chip key={"" + genre + index} label={genre} />
             ))}
-          </div>
+          </Stack>
         );
       },
     },
