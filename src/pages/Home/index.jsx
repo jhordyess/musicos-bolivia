@@ -39,9 +39,15 @@ export default function () {
           href="https://github.com/leanguardia/bolivian-music"
           rel="noreferrer"
           target="_blank"
+          id="repo_url"
         >
           bolivian-music
+          <img
+            src="https://frinkiac.com/meme/S12E07/141767.jpg?b64lines=U2kgbm8gYWN0dWFsaXphIGVsIHJlcG8KbWUgbXVlcm8="
+            alt="meme"
+          />
         </a>
+        .
       </p>
       <div>
         <MUIDataTable

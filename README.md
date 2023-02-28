@@ -17,7 +17,7 @@ Visita la página funcionando: <https://musbol.jhordyess.com>
 - CSS preprocessor: [Sass](https://sass-lang.com/)
 - Module bundler: [OpenJS Foundation - Webpack](https://webpack.js.org/)
 - Server Environment : [OpenJS Foundation - Node.js](https://nodejs.org/)
-- [VSCode](https://code.visualstudio.com/) with [remote containers](https://code.visualstudio.com/docs/remote/containers) ([Docker](https://www.docker.com/) multiple containers)
+- [VSCode](https://code.visualstudio.com/) with [remote containers](https://code.visualstudio.com/docs/remote/containers).
 
 ## Licencia
 
