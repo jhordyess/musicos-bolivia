@@ -1,8 +1,10 @@
 # Músicos de Bolivia
 
-Under construction 👷.
-
 Una representación visual del archivo CSV con peticiones al repositorio: [bolivian-music](https://github.com/leanguardia/bolivian-music) de [@leanguardia](https://github.com/leanguardia).
+
+## Screenshot
+
+![Home](https://res.cloudinary.com/jhordyess/image/upload/v1679354454/musica-bolivia/Home.png)
 
 ## Online
 
