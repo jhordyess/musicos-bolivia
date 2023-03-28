@@ -1,6 +1,6 @@
 {
   "name": "musica-bolivia",
-  "image": "jhordyess/node:16",
+  "image": "jhordyess/node",
   "customizations": {
     "vscode": {
       "extensions": [
