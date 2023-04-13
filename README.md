@@ -1,30 +1,33 @@
 # Músicos de Bolivia
 
-Una representación visual del archivo CSV con peticiones al repositorio: [bolivian-music](https://github.com/leanguardia/bolivian-music) de [@leanguardia](https://github.com/leanguardia).
+Lista de los músicos de Bolivia, información como nombre, popularidad, seguidores, y genero musical.
 
-## Screenshot
+## Descripción
 
-![Home](https://res.cloudinary.com/jhordyess/image/upload/v1679354454/musica-bolivia/Home.png)
+Se hace representación visual a un archivo CSV existente en el repositorio: [bolivian-music](https://github.com/leanguardia/bolivian-music) de [@leanguardia](https://github.com/leanguardia).
 
-## Online
+### Tecnologías usadas
+
+- Librerías de JS: [ReactJS](https://reactjs.org/), [Material-UI](https://mui.com/), [MUI-Datatables](https://github.com/gregnb/mui-datatables), [Papa Parse](https://www.papaparse.com/)
+- Librerías de CSS: [Sass](https://sass-lang.com/)
+- Fuente: [Spline Sans by Eben Sorkin, Mirko Velimirović](https://fonts.google.com/specimen/Spline+Sans)
+- Programming Language: [JavaScript ES6+](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- Bundler: [Webpack](https://webpack.js.org/)
+- Hosting: [GitHub Pages](https://pages.github.com/)
+- Entorno de desarrollo: [VSCode](https://code.visualstudio.com/) con [dev containers](https://code.visualstudio.com/docs/remote/containers) en [Zorin OS](https://zorinos.com/)
+
+### Online
 
 Visita la página funcionando: <https://musbol.jhordyess.com>
 
-## Dev Info
+### Capturas
 
-- JavaScript library: [Meta - React](https://reactjs.org/)
-- React UI library: [Material-UI](https://mui.com/)
-- Responsible datatables component: [MUI-Datatables - Datatables for Material-UI](https://github.com/gregnb/mui-datatables)
-- CSV parser: [Matt Holt - Papa Parse](https://www.papaparse.com/)
-- CSS preprocessor: [Sass](https://sass-lang.com/)
-- Module bundler: [OpenJS Foundation - Webpack](https://webpack.js.org/)
-- Server Environment : [OpenJS Foundation - Node.js](https://nodejs.org/)
-- [VSCode](https://code.visualstudio.com/) with [remote containers](https://code.visualstudio.com/docs/remote/containers).
+![Home](https://res.cloudinary.com/jhordyess/image/upload/v1679354454/musica-bolivia/Home.png)
 
-## Licencia
+## License
 
-© 2023 [Jhordyess](https://github.com/jhordyess). Under the [MIT](https://choosealicense.com/licenses/mit/) license.
+© 2023> [Jhordyess](https://github.com/jhordyess). Under the [MIT](https://choosealicense.com/licenses/mit/) license. See the [LICENSE](./LICENSE) file for more details.
 
 ---
 
-Hecho con 💪 por [Jhordyess](https://www.jhordyess.com/)
+Made with 💪 by [Jhordyess](https://www.jhordyess.com/)
