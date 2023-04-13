@@ -42,6 +42,9 @@ module.exports = {
       filename: "[name].[contenthash].css",
     }),
     new CleanWebpackPlugin(),
+    new CnameWebpackPlugin({
+      domain: "musbol.jhordyess.com",
+    }),
   ],
   optimization: {
     minimize: true,
