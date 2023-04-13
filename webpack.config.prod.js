@@ -4,6 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const CnameWebpackPlugin = require("cname-webpack-plugin");
 
 module.exports = {
   entry: path.join(__dirname, "src", "index.js"),
