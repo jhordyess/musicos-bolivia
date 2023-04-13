@@ -59,8 +59,12 @@ export default function () {
       </div>
       <footer>
         Hecho con 💪 por&nbsp;
-        <a href="https://jhordyess.com" target="_blank" rel="noreferrer">
+        <a href="https://www.jhordyess.com" target="_blank">
           Jhordyess
+        </a>
+        <br />
+        <a href="https://github.com/jhordyess/musicos-bolivia" target="_blank">
+          👉 Ver en GitHub
         </a>
       </footer>
     </div>
