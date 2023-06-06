@@ -18,7 +18,7 @@ Se hace representación visual a un archivo CSV existente en el repositorio: [bo
 
 ### Online
 
-Visita la página funcionando: <https://musbol.jhordyess.com>
+Visita la página funcionando: <https://jhordyess.github.io/musicos-bolivia>
 
 ### Capturas
 
