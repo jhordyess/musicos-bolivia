@@ -14,7 +14,7 @@ npm i -D mini-css-extract-plugin css-loader style-loader
 npm i -D css-minimizer-webpack-plugin terser-webpack-plugin clean-webpack-plugin
 
 # Hosting
-npm i -D gh-pages cname-webpack-plugin
+npm i -D gh-pages
 
 # Extra commands
 npm i -D sass sass-loader
