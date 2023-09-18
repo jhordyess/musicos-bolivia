@@ -1,56 +1,47 @@
 {
-  "name": "musica-bolivia",
-  "version": "1.0.0",
+  "name": "musicos-bolivia",
   "description": "Lista de los músicos de Bolivia",
+  "version": "1.1.0",
+  "author": "Jhordy Gavinchu <dev@jhordyess.com>",
+  "license": "MIT",
+  "private": true,
   "keywords": [
     "Music",
     "Bolivia",
     "React",
     "CSV"
   ],
-  "author": "Jhordy Gavinchu <dev@jhordyess.com>",
-  "license": "MIT",
-  "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "start": "webpack serve --config webpack.config.dev.js",
-    "build": "webpack --config webpack.config.prod.js",
-    "predeploy": "npm run build",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --write .",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   },
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ]
-  },
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@mui/icons-material": "^5.10.15",
-    "@mui/material": "^5.10.15",
-    "mui-datatables": "^4.2.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.8",
+    "@mui/material": "^5.9.3",
+    "mui-datatables": "^4.3.0",
     "papaparse": "^5.3.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.2",
-    "@babel/preset-env": "^7.20.2",
-    "@babel/preset-react": "^7.18.6",
-    "babel-loader": "^9.1.0",
-    "clean-webpack-plugin": "^4.0.0",
-    "cname-webpack-plugin": "^3.0.0",
-    "css-loader": "^6.7.2",
-    "css-minimizer-webpack-plugin": "^4.2.2",
-    "gh-pages": "^4.0.0",
-    "html-webpack-plugin": "^5.5.0",
-    "mini-css-extract-plugin": "^2.7.0",
-    "sass": "^1.56.1",
-    "sass-loader": "^13.2.0",
-    "style-loader": "^3.3.1",
-    "terser-webpack-plugin": "^5.3.6",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.0",
-    "webpack-dev-server": "^4.11.1"
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "gh-pages": "^6.0.0",
+    "prettier": "^3.0.3",
+    "sass": "^1.67.0",
+    "vite": "^4.4.5"
   }
 }
